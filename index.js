@@ -43,7 +43,7 @@ export default class Trae extends React.Component {
   }
 
   componentDidMount() {
-    trae[method](...this.requestParams())
+    trae[this.props.method](...this.requestParams())
       .then((response) => this.setState({ loading: false, ...response }))
       .catch((error) => this.setState({ loading: false, error, ...error }))
   }
@@ -69,9 +69,6 @@ export default class Trae extends React.Component {
   }
 
   render() {
-    const { loading, error, data } = this.state
-    const { children } = this.props
-
-    return children(loading, error, data)
+    return this.props.children(this.state)
   }
 }
