@@ -1,8 +1,18 @@
 # trae as React component
 
 > when you have a hammer, everything is a nail
+>
+> _Someone_
 
-_Somebody_
+## Install
+
+```bash
+yarn add react-trae
+# or
+npm install --save react-trae
+```
+
+## Use
 
 ```js
 import Trae from 'react-trae'
