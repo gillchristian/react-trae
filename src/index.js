@@ -8,7 +8,14 @@ const WITH_BODY = ['put', 'patch', 'post']
 const BODYTYPES = ['arrayBuffer', 'blob', 'formData', 'json', 'text', 'raw']
 const MODES = ['same-origin', 'no-cors', 'cors', 'navigate']
 const CREDENTIALS = ['omit', 'same-origin', 'include']
-const CACHES = ['default', 'no-store', 'reload', 'no-cache', 'force-cache', 'only-if-cached']
+const CACHES = [
+  'default',
+  'no-store',
+  'reload',
+  'no-cache',
+  'force-cache',
+  'only-if-cached',
+]
 
 export default class Trae extends React.Component {
   static propTypes = {
@@ -35,7 +42,6 @@ export default class Trae extends React.Component {
     headers: {},
   }
 
-
   state = {
     loading: true,
     error: false,
@@ -43,9 +49,10 @@ export default class Trae extends React.Component {
   }
 
   componentDidMount() {
-    trae[this.props.method](...this.requestParams())
-      .then((response) => this.setState({ loading: false, ...response }))
-      .catch((error) => this.setState({ loading: false, error, ...error }))
+    trae
+      [this.props.method](...this.requestParams())
+      .then(response => this.setState({ loading: false, ...response }))
+      .catch(error => this.setState({ loading: false, error, ...error }))
   }
 
   requestParams() {
@@ -63,9 +70,7 @@ export default class Trae extends React.Component {
 
     const config = { bodyType, mode, credentials, cache, params, headers }
 
-    return WITH_BODY.includes(method)
-      ? [url, body, config]
-      : [url, config]
+    return WITH_BODY.includes(method) ? [url, body, config] : [url, config]
   }
 
   render() {
