@@ -1,0 +1,20 @@
+{
+  "name": "trae-component",
+  "version": "0.0.1",
+  "description": "trae request as react components",
+  "main": "index.js",
+  "repository": "git@github.com:gillchristian/trae-component.git",
+  "author": "gillchristian <gillchristiang@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "husky": "^0.13.4",
+    "jest": "^20.0.4",
+    "lint-staged": "^3.6.1",
+    "prettier": "^1.4.4"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1",
+    "trae": "^1.4.2"
+  }
+}
