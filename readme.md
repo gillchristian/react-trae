@@ -4,6 +4,8 @@
 >
 > _Someone_
 
+![componentize-all-the-things](https://github.com/gillchristian/react-trae/blob/master/assets/all-the-things.jpg "Component-ize All The Things")
+
 ## Install
 
 ```bash
