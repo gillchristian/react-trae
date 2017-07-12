@@ -4,7 +4,9 @@
 >
 > _Someone_
 
-![componentize-all-the-things](https://github.com/gillchristian/react-trae/blob/master/assets/all-the-things.jpg "Component-ize All The Things")
+<h1 align="center">
+  <img src="https://github.com/gillchristian/react-trae/blob/master/assets/all-the-things.jpg" alt="componentize-all-the-things" title="componentize-all-the-things" width="500">
+</h1>
 
 ## Install
 
