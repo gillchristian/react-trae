@@ -1,6 +1,6 @@
 {
   "name": "react-trae",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "trae requests as react components",
   "main": "dist/react-trae.cjs.js",
   "module": "dist/react-trae.umd.min.js",
