@@ -20,7 +20,7 @@ npm install --save react-trae
 
 ## Examples
 
-- [Base example](https://codesandbox.io/s/64wnl7y04z).
+- [Basic example](https://codesandbox.io/s/64wnl7y04z)
 - [Infinite posts lists](https://codesandbox.io/s/91k8612r6y?module=%2FPostList.js)
 
 ## Use
