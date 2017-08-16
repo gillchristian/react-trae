@@ -16,6 +16,11 @@ yarn add react-trae
 npm install --save react-trae
 ```
 
+## Examples
+
+- Base example. _`pending`_
+- [Infinite posts lists](https://codesandbox.io/s/91k8612r6y?hidenavigation=1&module=%2FPostList.js)
+
 ## Use
 
 ```js
