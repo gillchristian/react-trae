@@ -1,5 +1,5 @@
 <h1 align="center">
-  trae as React component
+  react-trae
 </h1>
 
 <h1 align="center">
@@ -20,8 +20,8 @@ npm install --save react-trae
 
 ## Examples
 
-- Base example. _`pending`_
-- [Infinite posts lists](https://codesandbox.io/s/91k8612r6y?hidenavigation=1&module=%2FPostList.js)
+- [Base example](https://codesandbox.io/s/64wnl7y04z).
+- [Infinite posts lists](https://codesandbox.io/s/91k8612r6y?module=%2FPostList.js)
 
 ## Use
 
